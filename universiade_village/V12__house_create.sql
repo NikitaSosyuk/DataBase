@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS `house` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `building_id` INT UNSIGNED NOT NULL,
+  `manager_id` INT UNSIGNED NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE,  
+  CONSTRAINT `house_building_id_fk` FOREIGN KEY (`building_id`)
+  REFERENCES `building`(`id`) ON UPDATE CASCADE ON DELETE CASCADE,
+  CONSTRAINT `house_manager_id_fk` FOREIGN KEY (`manager_id`)
+  REFERENCES `employee`(`id`) ON UPDATE CASCADE ON DELETE CASCADE
+);

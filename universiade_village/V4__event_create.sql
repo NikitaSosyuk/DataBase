@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS `event` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(100) NOT NULL,
+  `address_id` INT UNSIGNED NOT NULL,
+  `mark` TINYINT UNSIGNED NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE,
+  INDEX `name_index` (`name` ASC) VISIBLE,
+  CONSTRAINT `event_address_id_fk` FOREIGN KEY (`address_id`) REFERENCES `address`(`id`) ON UPDATE CASCADE ON DELETE CASCADE
+);

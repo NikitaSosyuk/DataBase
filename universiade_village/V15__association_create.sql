@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `association` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `building_id` INT UNSIGNED NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE,  
+  CONSTRAINT `association_building_id_fk` FOREIGN KEY (`building_id`)
+  REFERENCES `building`(`id`) ON UPDATE CASCADE ON DELETE CASCADE
+);

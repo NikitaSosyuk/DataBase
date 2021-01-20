@@ -1,0 +1,15 @@
+INSERT INTO `student_position` (`position`) VALUES ('Руководитель жилищно-бытового отдела АСДУ');
+INSERT INTO `student_position` (`position`) VALUES ('Главный спортивный организатор АСДУ');
+INSERT INTO `student_position` (`position`) VALUES ('Руководитель медиа направления АСДУ');
+INSERT INTO `student_position` (`position`) VALUES ('Руководитель отдела по взаимодействию с иностранными студентами АСДУ');
+INSERT INTO `student_position` (`position`) VALUES ('Руководитель студенческих объединений АСДУ');
+INSERT INTO `student_position` (`position`) VALUES ('Руководитель юридического отдела АСДУ');
+INSERT INTO `student_position` (`position`) VALUES ('Главный культурный организатор АСДУ');
+INSERT INTO `student_position` (`position`) VALUES ('Руководитель студенческих объединений АСДУ');
+INSERT INTO `student_position` (`position`) VALUES ('Руководитель клуба');
+INSERT INTO `student_position` (`position`) VALUES ('Культурный организатор дома');
+INSERT INTO `student_position` (`position`) VALUES ('Спортивный организатор дома');
+INSERT INTO `student_position` (`position`) VALUES ('Председатель дома');
+INSERT INTO `student_position` (`position`) VALUES ('Сансектор дома');
+INSERT INTO `student_position` (`position`) VALUES ('Информационный организатор дома');
+INSERT INTO `student_position` (`position`) VALUES ('Секретарь дома');

@@ -1,0 +1,18 @@
+INSERT INTO `employee_profession` (`profession`) VALUES ('Мэр Деревни Универсиады');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Советник');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Заместитель директора');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Заместитель директора по АХЧ');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Главный инженер');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Начальник АХО');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Начальник отдела обеспечения безопасности');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Плотник');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Грузчик');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Электрик');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Сантехник');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Заведующий домом');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Вахтер КПП');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Вахтер дома');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Продавец-Кассир');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Уборщик');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Специалист по работе с молодёжью');
+INSERT INTO `employee_profession` (`profession`) VALUES ('Администратор');
